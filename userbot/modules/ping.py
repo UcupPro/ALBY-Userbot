@@ -18,19 +18,19 @@ from userbot.events import register
 absen = [
     "**Hadir ganteng** 🥰",
     "**Hadir bro** 😎",
-    "**Sungkem Lord ALBY Datang** ",
+    "**Sungkem Lord Ucuppp Datang** ",
     "**Hadir kak** 😉",
     "**Hadir bang** 😁",
     "**Hadir kak maap telat** 🥺",
     "**Hadir Tuan** 🙏🏻",
     "**Hadir Majikan** 🙏🏻",
     "**Hadir Sayang** 😳",
-    "**Hadir Bro Alby** 😁",
-    "**maaf ka habis nemenin ka Alby** 🥺",
-    "**maaf ka habis disuruh Tuan alby** 🥺🙏🏻",
+    "**Hadir Bro Ucuppp** 😁",
+    "**maaf ka habis nemenin ka Ucuppp** 🥺",
+    "**maaf ka habis disuruh Tuan Ucuppp** 🥺🙏🏻",
     "**Hadir Sayang** 😘"
-    "**Hadir alby Akuuuuhhh** ☺️",
-    "**Hadir alby Pacar Aku** 🥰",
+    "**Hadir Ucuppp Akuuuuhhh** ☺️",
+    "**Hadir Ucuppp Pacar Aku** 🥰",
 ]
 
 roas = [
@@ -113,13 +113,13 @@ async def redis(pong):
     await pong.edit("**✲✲**")
     await pong.edit("**✲✲✲**")
     await pong.edit("__DUARR💣__")
-    await pong.edit("🔥")
+    await pong.edit("😎")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await pong.edit(
         f"**{ALIVE_NAME}**        \n"
         f"**➾Kecepatan : ** '%sms'  \n"
-        f"**➾Branch : ** 'ALBY-Userbot` \n" % (duration)
+        f"**➾Branch : ** 'UCUP-Userbot` \n" % (duration)
     )
 
 
@@ -157,7 +157,7 @@ async def redis(pong):
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await pong.edit(
-        f"**✨ ᴀʟʙʏ ᴜꜱᴇʀʙᴏᴛ ✨**\n"
+        f"**✨ ucup ᴜꜱᴇʀʙᴏᴛ ✨**\n"
         f"➾ __Signal__    __:__ "
         f"`%sms` \n"
         f"➾ __Uptime__ __:__ "
@@ -181,7 +181,7 @@ async def redis(pong):
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await pong.edit(
-        f"**✨ ᴀʟʙʏ ᴜꜱᴇʀʙᴏᴛ ✨**\n\n"
+        f"**✨ ucup ᴜꜱᴇʀʙᴏᴛ ✨**\n\n"
         f"** ▹  Sɪɢɴᴀʟ   :** "
         f"`%sms` \n"
         f"** ▹  Uᴘᴛɪᴍᴇ  :** "
@@ -198,12 +198,12 @@ async def pingme(pong):
     await pong.edit("**✣✣**")
     await pong.edit("**✣✣✣**")
     await pong.edit("**✣✣✣✣**")
-    await pong.edit("✨")
+    await pong.edit("😎")
     await asyncio.sleep(3)
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await pong.edit(
-        f"卍═❖•**(っ◔◡◔)っPING**•❖═卍\n"
+        f"😎PING\n"
         f"❖ **Pɪɴɢᴇʀ :** "
         f"`%sms` \n"
         f"❖ **Uᴘᴛɪᴍᴇ :** "
@@ -237,7 +237,7 @@ async def speedtst(spd):
         f"`{result['ping']}` \n"
         "✧ **ISP:** "
         f"`{result['client']['isp']}` \n"
-        "✧ **BOT:** ✨ ᴀʟʙʏ ᴜꜱᴇʀʙᴏᴛ ✨"
+        "✧ **BOT:** ✨ ucup ᴜꜱᴇʀʙᴏᴛ ✨"
     )
 
 
@@ -264,7 +264,7 @@ async def pingme(pong):
     await asyncio.sleep(2)
     end = datetime.now()
     duration = (end - start).microseconds / 9000
-    await pong.edit(f"**⚡️ALBYName : {ALIVE_NAME}**\n📗 `%sms`" % (duration))
+    await pong.edit(f"**⚡️UCUPName : {ALIVE_NAME}**\n📗 `%sms`" % (duration))
 
 
 @register(outgoing=True, pattern="^.pink$")
